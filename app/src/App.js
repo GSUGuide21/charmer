@@ -1,10 +1,10 @@
 import React from "react";
+import Header from "./components/Header";
 
 export default function App() {
 	return (
-		<>
-			<h1 className="charmer-title">Hello World</h1>
-			<p>Hello World</p>
-		</>
+		<div className="charmer-container" id="charmer-container">
+			<Header />
+		</div>
 	);
 }
